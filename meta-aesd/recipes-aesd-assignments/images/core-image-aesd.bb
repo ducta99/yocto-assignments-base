@@ -1,5 +1,6 @@
 inherit core-image
-#IMAGE_INSTALL += "aesd-assignments"
+IMAGE_INSTALL += "aesd-assignments"
+IMAGE_INSTALL += " libgcc"
 CORE_IMAGE_EXTRA_INSTALL += " openssh"
 inherit extrausers
 # See https://docs.yoctoproject.org/singleindex.html#extrausers-bbclass
